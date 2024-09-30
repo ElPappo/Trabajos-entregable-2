@@ -14,10 +14,11 @@ console.log(letra);
 al usuario que ingrese un nombre y verificar si está 
 en el arreglo. Imprimir el arreglo y si está o no en 
 él.*/
-
+              //uso la libreria de Readline-Sync
              //se crea el arreglo
 
 let nombres: string[] = [`matias`, `cristian`, `angelo`];
+            //Pido al usuario que ingrese un nombre, el resultado puede ser string o null
 let nombreIngresado: string | null = rs.question("Ingrese el nombre: "); 
 
              //Verifico si el nombre está en el arreglo
